@@ -54,7 +54,6 @@
   aspect-ratio: 9 / 16;
   border-radius: 16px;
   overflow: hidden;
-  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
   background: #000;
 }
 
