@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.landing-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #f5f7fa 0%, #e8eef3 100%);
+  padding: 20px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
+}
+
+.content-wrapper {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+/* Button Styles */
+.nura-button {
+  background: #b4ff39;
+  color: #000000;
+  font-size: 22px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: 20px 48px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  box-shadow: 0 8px 24px rgba(180, 255, 57, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  font-family: 'Arial Black', sans-serif;
+}
+
+.nura-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(180, 255, 57, 0.4);
+}
+
+.nura-button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 16px rgba(180, 255, 57, 0.3);
+}
+
+/* Video Container */
+.video-container {
+  width: 100%;
+  max-width: 400px;
+  aspect-ratio: 9 / 16;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.15);
+  background: #000;
+}
+
+.video-player {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* Tablet Responsiveness */
+@media (max-width: 768px) {
+  .content-wrapper {
+    max-width: 500px;
+    gap: 28px;
+  }
+
+  .nura-button {
+    font-size: 20px;
+    padding: 18px 40px;
+  }
+
+  .video-container {
+    max-width: 350px;
+  }
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 480px) {
+  .landing-container {
+    padding: 16px;
+  }
+
+  .content-wrapper {
+    gap: 24px;
+  }
+
+  .nura-button {
+    font-size: 16px;
+    padding: 16px 32px;
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .video-container {
+    max-width: 280px;
+  }
+}
+
+/* Small Mobile */
+@media (max-width: 360px) {
+  .nura-button {
+    font-size: 14px;
+    padding: 14px 24px;
+  }
+
+  .video-container {
+    max-width: 240px;
+  }
+}
