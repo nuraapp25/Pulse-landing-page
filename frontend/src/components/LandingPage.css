@@ -35,19 +35,16 @@
   border: none;
   border-radius: 50px;
   cursor: pointer;
-  box-shadow: 0 8px 24px rgba(180, 255, 57, 0.3);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  transition: transform 0.2s ease;
   font-family: 'Arial Black', sans-serif;
 }
 
 .nura-button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 32px rgba(180, 255, 57, 0.4);
 }
 
 .nura-button:active {
   transform: translateY(0);
-  box-shadow: 0 4px 16px rgba(180, 255, 57, 0.3);
 }
 
 /* Video Container */
