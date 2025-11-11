@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+/* Hide Emergent watermark */
+#emergent-badge {
+  display: none !important;
+}
+
 .landing-container {
   min-height: 100vh;
   display: flex;
