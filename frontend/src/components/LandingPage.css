@@ -51,9 +51,9 @@
 /* Video Container */
 .video-container {
   width: 100%;
-  max-width: 100px;
+  max-width: 300px;
   aspect-ratio: 9 / 16;
-  border-radius: 4px;
+  border-radius: 12px;
   overflow: hidden;
   background: #000;
 }
