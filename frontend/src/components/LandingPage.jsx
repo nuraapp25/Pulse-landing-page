@@ -32,7 +32,7 @@ const LandingPage = () => {
             preload="auto"
           >
             <source 
-              src="https://customer-assets.emergentagent.com/job_pulse-landing/artifacts/vgkxcmxc_John.mp4" 
+              src="https://customer-assets.emergentagent.com/job_pulse-landing/artifacts/nzi0dr8q_Jo%20Jo%201.mp4" 
               type="video/mp4" 
             />
             Your browser does not support the video tag.
