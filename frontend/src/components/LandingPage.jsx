@@ -3,7 +3,7 @@ import './LandingPage.css';
 
 const LandingPage = () => {
   // Update this URL whenever needed
-  const REDIRECT_URL = 'https://operator-hub-3.preview.emergentagent.com';
+  const REDIRECT_URL = 'https://driver-docs-2.preview.emergentagent.com/dashboard/admin/files';
 
   const handleButtonClick = () => {
     window.open(REDIRECT_URL, '_blank', 'noopener,noreferrer');
