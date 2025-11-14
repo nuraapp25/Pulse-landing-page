@@ -21,13 +21,22 @@ const LandingPage = () => {
           CLICK HERE FOR NURA PULSE
         </button>
 
-        {/* GIF */}
+        {/* Video */}
         <div className="video-container">
-          <img
+          <video
             className="video-player"
-            src="https://customer-assets.emergentagent.com/job_pulse-landing/artifacts/ryysitql_Jo%20Jo%20G1.gif"
-            alt="Nura Pulse Animation"
-          />
+            autoPlay
+            loop
+            muted
+            playsInline
+            preload="auto"
+          >
+            <source 
+              src="https://customer-assets.emergentagent.com/job_pulse-landing/artifacts/47iiduc6_Jo%20Jo%201%20new.mp4" 
+              type="video/mp4" 
+            />
+            Your browser does not support the video tag.
+          </video>
         </div>
       </div>
     </div>
