@@ -3,7 +3,7 @@ import './LandingPage.css';
 
 const LandingPage = () => {
   // Update this URL whenever needed
-  const REDIRECT_URL = 'https://driver-sync-tool.preview.emergentagent.com/dashboard/driver-onboarding';
+  const REDIRECT_URL = 'https://driver-roster-1.preview.emergentagent.com';
 
   const handleButtonClick = () => {
     window.open(REDIRECT_URL, '_blank', 'noopener,noreferrer');
