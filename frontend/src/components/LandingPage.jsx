@@ -3,7 +3,7 @@ import './LandingPage.css';
 
 const LandingPage = () => {
   // Update this URL whenever needed
-  const REDIRECT_URL = 'https://driver-roster-1.preview.emergentagent.com';
+  const REDIRECT_URL = 'https://driver-hub-46.preview.emergentagent.com/';
 
   const handleButtonClick = () => {
     window.open(REDIRECT_URL, '_blank', 'noopener,noreferrer');
